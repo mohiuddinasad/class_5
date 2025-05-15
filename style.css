@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#main{
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.952);
+    width: 253px;
+    padding: 15px;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    transform: translate(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main .img{
+    width: 100%;
+}
+#main .gift span{
+    font-size: 14px;
+    background-color: blueviolet;
+    left: 0px;
+    position: absolute;
+    padding: 0px 4px;
+    color: white;
+    border-radius: 0 25px 25px 0;
+}
+#main .details h5{
+    font-weight: 500px;
+    color: red;
+    margin-bottom: 15px;
+}
+#main .details li{
+    margin-bottom: 5px;
+}
+#main .price {
+    display: block;
+    text-align: center;
+}
+#main .price{
+    margin-bottom: 4px;
+}
+#main .price span{
+    color: red;
+    font-weight: bold;;
+}
+#main .action button{
+    display: block;
+    width: 100%;
+    background-color: rgb(38, 0, 255);
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 4px;
+} 
