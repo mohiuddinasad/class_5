@@ -8,7 +8,7 @@
     padding: 15px;
     position: absolute;
     left: 50%;
-    top: 0px;
+    top: 5px;
     transform: translate(-50%);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -17,6 +17,7 @@
 }
 #main .gift span{
     font-size: 14px;
+    padding: 5px;
     background-color: blueviolet;
     left: 0px;
     position: absolute;
@@ -46,10 +47,10 @@
 #main .action button{
     display: block;
     width: 100%;
-    background-color: rgb(38, 0, 255);
-    color: white;
+    background-color: blue;
+    color:white;
     padding: 5px;
     border: none;
     border-radius: 5px 5px 5px 5px;
     margin-bottom: 4px;
-} 
+}
